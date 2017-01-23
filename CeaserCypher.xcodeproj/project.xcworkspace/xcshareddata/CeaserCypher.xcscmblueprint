@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3DCF6F449C53D7BA507960B019F6B6E9F58CB4F7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3DCF6F449C53D7BA507960B019F6B6E9F58CB4F7" : 9223372036854775807,
+    "6DC408CB93BE7244987D19BB067912454C08E446" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EC694430-46E9-48D2-93D5-DDFEDA8F690E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3DCF6F449C53D7BA507960B019F6B6E9F58CB4F7" : "CeaserCypher\/",
+    "6DC408CB93BE7244987D19BB067912454C08E446" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CeaserCypher",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CeaserCypher.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LemonaInc\/CaeserCypher.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3DCF6F449C53D7BA507960B019F6B6E9F58CB4F7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LemonaInc\/Swift-Strings.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6DC408CB93BE7244987D19BB067912454C08E446"
+    }
+  ]
+}

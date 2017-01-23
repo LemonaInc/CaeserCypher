@@ -14,7 +14,7 @@ import UIKit
 
 
 // Lets create the alphabet for our encryptor 
-let sharkAlphabet: [Character] = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s","t", "u", "v", "w", "x", "y", "z"]
+let sharkAlphabet: [Character] = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s","t", "u", "v", "w", "x", "y", "z", "@", ".", ">","*","^","#","!",",","(",")","-","+","=","?","~","$","%"]
 
 // Lets offset the number by 10. We can change this to any integer between 1 and 25.
 func offsetNumber() -> Int {
