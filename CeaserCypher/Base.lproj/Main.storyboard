@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D25a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CeaserCypher" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shark" translatesAutoresizingMaskIntoConstraints="NO" id="Zc1-kj-tWx">
+                                <rect key="frame" x="-19.5" y="-34.5" width="414" height="736"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="736" id="i8v-lx-4T4"/>
+                                    <constraint firstAttribute="width" constant="414" id="zSu-P9-sgn"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Input Text Here" textAlignment="center" minimumFontSize="17" background="Blank" translatesAutoresizingMaskIntoConstraints="NO" id="4Xx-m7-qTV">
+                                <rect key="frame" x="35" y="207.5" width="304" height="52"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="304" id="AIv-HF-TPm"/>
+                                    <constraint firstAttribute="height" constant="52" id="u9M-uh-Ofr"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caeser Encrypt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kac-LP-xkp">
+                                <rect key="frame" x="78" y="44.5" width="218" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="218" id="ER0-UO-9ks"/>
+                                    <constraint firstAttribute="height" constant="78" id="SpR-DN-2L0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Vto-DA-ZQG">
+                                <rect key="frame" x="9" y="385.5" width="357" height="256"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="256" id="378-Ua-7HP"/>
+                                    <constraint firstAttribute="width" constant="357" id="3pm-pI-I9x"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="passwordIcon" translatesAutoresizingMaskIntoConstraints="NO" id="1QA-lw-40n">
+                                <rect key="frame" x="291" y="214" width="33" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="33" id="2jP-uL-IRI"/>
+                                    <constraint firstAttribute="height" constant="33" id="LzC-Vx-0s3"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sxv-fX-y7F">
+                                <rect key="frame" x="32" y="307.5" width="310" height="52"/>
+                                <color key="backgroundColor" red="0.17254901960784313" green="0.59607843137254901" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="3Ki-Sd-8He"/>
+                                    <constraint firstAttribute="width" constant="310" id="Dnl-Tz-O2q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="40"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" image="SubmitBttn"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="encryptTextWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gHg-AQ-idg"/>
+                                    <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3m0-Bw-y9o"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CheckmarkIcon" translatesAutoresizingMaskIntoConstraints="NO" id="5ZQ-uB-ITC">
+                                <rect key="frame" x="295" y="61" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="EVc-OK-en3"/>
+                                    <constraint firstAttribute="width" constant="45" id="Sfi-Ab-a4s"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="dividerLine" translatesAutoresizingMaskIntoConstraints="NO" id="5ia-x1-lLm">
+                                <rect key="frame" x="16" y="307" width="337" height="124"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="124" id="BIL-iK-dDF"/>
+                                    <constraint firstAttribute="width" constant="337" id="uih-h5-W0M"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1215686275" green="0.83529411760000005" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Zc1-kj-tWx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1V5-52-Db1"/>
+                            <constraint firstItem="Vto-DA-ZQG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="180" id="1uL-oM-340"/>
+                            <constraint firstItem="Kac-LP-xkp" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-250" id="AuC-7q-OD0"/>
+                            <constraint firstItem="4Xx-m7-qTV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="Era-W8-ZRQ"/>
+                            <constraint firstItem="1QA-lw-40n" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="120" id="FXo-KO-UwA"/>
+                            <constraint firstItem="5ia-x1-lLm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="GB8-VA-dBr"/>
+                            <constraint firstItem="Sxv-fX-y7F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="J53-hU-Jm6"/>
+                            <constraint firstItem="5ZQ-uB-ITC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="130" id="J6L-Zn-Dxf"/>
+                            <constraint firstItem="5ZQ-uB-ITC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-250" id="LuK-IV-2xF"/>
+                            <constraint firstItem="5ia-x1-lLm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Prh-11-esb"/>
+                            <constraint firstItem="Zc1-kj-tWx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="fF2-Q6-lqu"/>
+                            <constraint firstItem="4Xx-m7-qTV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="g58-CU-I4s"/>
+                            <constraint firstItem="Kac-LP-xkp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sKu-yZ-Y7c"/>
+                            <constraint firstItem="Vto-DA-ZQG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xdM-Sb-8CZ"/>
+                            <constraint firstItem="1QA-lw-40n" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-103" id="yPt-s6-AQ3"/>
+                            <constraint firstItem="Sxv-fX-y7F" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="zhr-Yh-D06"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="caesarEncryptText" destination="Vto-DA-ZQG" id="tHH-hT-Gms"/>
+                        <outlet property="userText" destination="4Xx-m7-qTV" id="R7B-cx-nVZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Blank" width="1260" height="220"/>
+        <image name="CheckmarkIcon" width="400" height="400"/>
+        <image name="Shark" width="414" height="736"/>
+        <image name="SubmitBttn" width="1260" height="220"/>
+        <image name="dividerLine" width="1500" height="4"/>
+        <image name="passwordIcon" width="80" height="92"/>
+    </resources>
+</document>
