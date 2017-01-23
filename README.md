@@ -1,0 +1,3 @@
+# CaeserCypher
+My caesar cypher encryptor app allows users to enter any message that they want to encrypt and once they enter that message and press the submit button in the app the message will be encrypted using the caesar cypher shift 10 algorithm and a sound will play notifying the user that the action is complete. This algorithm encrypts the message and allows the user to copy the encrypted message to communicate discreetly and privately. When the user wants to convert their encrypted message back to the normal form they can do so using a decrypter. In the future this app will also be able to decrypt the message. 
+ 
